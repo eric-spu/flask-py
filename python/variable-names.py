@@ -59,3 +59,35 @@ print("Pascal Case:", myVariableName)
 # Snake case
 my_variable_name = "Spu-Eric"
 print("Snake case:", my_variable_name)
+print("\n")
+""" 
+Many Values to Multiple Variables
+Python allows you to assign values to multiple variables in one line:
+"""
+print('Mutiple variable: ')
+i, j, k = "TVS RTR", "Toyota GT86", "Toyota Tx86"
+print(i, j, k)
+print(j, k)
+print(k)
+
+# One Value to Multiple Variables
+# And you can assign the same value to multiple variables in one line:
+# Example
+
+print("\nOne Value to Multiple Variables:")
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+"""
+Unpack a Collection
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+Example
+"""
+print("\nUnpack a list: ")
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
